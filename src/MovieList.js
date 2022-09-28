@@ -8,7 +8,7 @@ const MovieList = ({movie, title}) => {
             {movie.map(eachmovie => (
                 <div className="movie-preview" key={eachmovie._id}>
                     <Link to={`/posts/${eachmovie._id}`}>
-                        <h2>{eachmovie.title}a</h2>
+                        <h2>{eachmovie.title}</h2>
                     </Link>
                 </div>
             ))}
