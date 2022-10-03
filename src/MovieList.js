@@ -15,5 +15,7 @@ const MovieList = ({movie, title}) => {
         </div>
      );
 }
+
+const endpoint="New end point";
  
 export default MovieList;

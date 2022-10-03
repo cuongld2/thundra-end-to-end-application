@@ -13,4 +13,6 @@ const Home = () => {
      );
 }
 
+const endpoint="New end point";
+
 export default Home;
