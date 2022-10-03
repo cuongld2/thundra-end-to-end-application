@@ -15,6 +15,8 @@ const MovieDetails = () => {
             history.push('/');
         })
     }
+    const endpoint="New end point";
+    
 
     return ( 
         <div className="movie-details">
